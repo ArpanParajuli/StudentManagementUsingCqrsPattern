@@ -2,7 +2,7 @@
 
 namespace StudentManagement.Api.Dtos
 {
-    public class UpdateStudentDto
+    public record UpdateStudentDto
     {
         [Required]
         [StringLength(50, MinimumLength = 1)]
